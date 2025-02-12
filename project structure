@@ -1,0 +1,8 @@
+carbon_footprint_analyzer/  
+├── main.py  
+├── calculator.py  
+├── data/  
+│   ├── emission_factors.json  # Stores CO2e (carbon dioxide equivalent) data  
+│   └── user_data.json         # Saves user inputs  
+├── visualization.py  
+└── README.md
