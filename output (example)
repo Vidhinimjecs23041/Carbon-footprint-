@@ -1,0 +1,8 @@
+def suggest_improvements(transport, diet, energy):
+    max_source = max(transport.values(), key=lambda x: x)
+    if max_source == transport["car"]:
+        print("💡 Tip: Carpool or switch to public transport to reduce car emissions!")
+    elif diet > 100:  
+        print("💡 Tip: Try meat-free meals once a week!")
+    if energy > 200:
+        print("💡 Tip: Switch to LED bulbs to save energy!")
